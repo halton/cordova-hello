@@ -20,6 +20,7 @@ var app = {
     // Application Constructor
     initialize: function() {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+        document.getElementById("clickme").addEventListener("click", function(e) {console.log('Ah, clicked!'); });
     },
 
     // deviceready Event Handler
