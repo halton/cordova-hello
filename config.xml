@@ -23,6 +23,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~6.2.3" />
+    <plugin name="cordova-plugin-intel-echo" spec="git+https://github.com/halton/cordova-plugin-intel-echo.git" />
     <plugin name="cordova-plugin-vibration" spec="git+https://github.com/fujunwei/cordova-plugin-vibration.git#android_things">
         <variable name="ANDROID_THINGS" value="false" />
     </plugin>
